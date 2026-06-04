@@ -1,3 +1,1 @@
-return {
-  { 'wakatime/vim-wakatime', lazy = false },
-}
+vim.pack.add({ Gh('wakatime/vim-wakatime') })

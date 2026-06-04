@@ -37,12 +37,4 @@ vim.keymap.set('n', '<leader>pz', function()
     quickType('typescript-zod')
 end)
 
-local wk = require('which-key')
-wk.add({
-    { '<leader>p', group = 'Paste to type' },
-    { '<leader>pc', desc = 'Paste to type (current filetype)' },
-    { '<leader>pg', desc = 'Paste to golang type' },
-    { '<leader>pt', desc = 'Paste to typescript type' },
-    { '<leader>pz', desc = 'Paste to typescript-zod type' },
-})
 return {}

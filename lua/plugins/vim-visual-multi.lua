@@ -1,6 +1,1 @@
-return {
-  {
-    'mg979/vim-visual-multi',
-    branch = 'master',
-  },
-}
+vim.pack.add({ Gh('mg979/vim-visual-multi') })

@@ -1,12 +1,2 @@
-return {
-    {
-
-        'XXiaoA/atone.nvim',
-        cmd = 'Atone',
-        opts = {
-            layout = {
-                width = 0.5,
-            },
-        },
-    },
-}
+vim.cmd('packadd nvim.undotree')
+vim.keymap.set('n', '<leader>u', require('undotree').open)
